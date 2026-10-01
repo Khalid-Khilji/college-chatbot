@@ -13,12 +13,18 @@
     iframe { width: 100%; max-width: 380px; height: 520px; border: 0; border-radius: 12px; background: #fff; box-shadow: 0 6px 20px rgba(0,0,0,.15); }
     footer { padding: 20px; font-size: .9rem; color: #3b4a6b; }
   </style>
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="College_Assistance_Chatbot"
+  agent-id="9b0f0fd0-786c-4b0b-a7c0-47b2353c8ced"
+  language-code="en"
+></df-messenger>
 </head>
 <body>
   <header><h1>College Assistant</h1></header>
   <main>
     <p>Ask about admissions, fees, exams, timetable or hostel.</p>
-    <iframe title="College chatbot" src="https://bot.dialogflow.com/9b0f0fd0-786c-4b0b-a7c0-47b2353c8ced"></iframe>
   </main>
   <footer>Your College Name</footer>
 </body>
